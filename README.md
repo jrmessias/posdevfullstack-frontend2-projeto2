@@ -69,7 +69,6 @@ Utiliza a [TMDB API v3](https://developer.themoviedb.org/docs) para buscar filme
 | `npm start`   | Inicia o servidor de desenvolvimento |
 | `npm run build` | Gera build de produção      |
 | `npm test`    | Executa testes               |
-| `npm run eject` | Ejeta configuração do webpack |
 
 ## Build
 
