@@ -13,7 +13,7 @@ code {
     monospace;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -50,7 +50,7 @@ header {
     margin-bottom: 20px;
 }
 
-header p{
+header p {
     text-align: center;
     color: #f1f1f1;
 }
@@ -211,3 +211,43 @@ header p{
     color: #f4f6f8;
 }
 
+/* Seção de conteúdos sugeridos */
+.suggested-content {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.suggested-content h2 {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.suggested-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.suggested-button {
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.suggested-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
+.suggested-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
